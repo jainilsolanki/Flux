@@ -18,21 +18,20 @@ import { RightOutlined, LeftOutlined } from "@ant-design/icons";
 import { EllipsisText } from "./Ellipsis.component";
 const TRANSLATE_AMOUNT = 200;
 export const ImageSlider = ({ headerContent, headerStyles }) => {
-  const aot_trailer = "src/assets/trailers/thumbnail-trailers/aot.mp4";
-  const bc_trailer = "src/assets/trailers/thumbnail-trailers/bc.mp4";
-  const bleach_trailer = "src/assets/trailers/thumbnail-trailers/bleach.mp4";
-  const dfrag_trailer = "src/assets/trailers/thumbnail-trailers/dfrag.mp4";
-  const drs_trailer = "src/assets/trailers/thumbnail-trailers/drs.mp4";
-  const ds_trailer = "src/assets/trailers/thumbnail-trailers/ds.mp4";
-  const fma_trailer = "src/assets/trailers/thumbnail-trailers/fma.mp4";
-  const gintama_trailer = "src/assets/trailers/thumbnail-trailers/gintama.mp4";
-  const jjk_trailer = "src/assets/trailers/thumbnail-trailers/jjk.mp4";
-  const konosuba_trailer =
-    "src/assets/trailers/thumbnail-trailers/konosuba.mp4";
-  const mha_trailer = "src/assets/trailers/thumbnail-trailers/mha.mp4";
-  const opm_trailer = "src/assets/trailers/thumbnail-trailers/opm.mp4";
-  const sao_trailer = "src/assets/trailers/thumbnail-trailers/sao.mp4";
-  const sds_trailer = "src/assets/trailers/thumbnail-trailers/sds.mp4";
+  const aot_trailer = "/trailers/thumbnail-trailers/aot.mp4";
+  const bc_trailer = "/trailers/thumbnail-trailers/bc.mp4";
+  const bleach_trailer = "/trailers/thumbnail-trailers/bleach.mp4";
+  const dfrag_trailer = "/trailers/thumbnail-trailers/dfrag.mp4";
+  const drs_trailer = "/trailers/thumbnail-trailers/drs.mp4";
+  const ds_trailer = "/trailers/thumbnail-trailers/ds.mp4";
+  const fma_trailer = "/trailers/thumbnail-trailers/fma.mp4";
+  const gintama_trailer = "/trailers/thumbnail-trailers/gintama.mp4";
+  const jjk_trailer = "/trailers/thumbnail-trailers/jjk.mp4";
+  const konosuba_trailer = "/trailers/thumbnail-trailers/konosuba.mp4";
+  const mha_trailer = "/trailers/thumbnail-trailers/mha.mp4";
+  const opm_trailer = "/trailers/thumbnail-trailers/opm.mp4";
+  const sao_trailer = "/trailers/thumbnail-trailers/sao.mp4";
+  const sds_trailer = "/trailers/thumbnail-trailers/sds.mp4";
 
   const [currentThumbnailTrailer, setCurrentThumbnailTrailer] = useState(0);
   const [translate, setTranslate] = useState(0);

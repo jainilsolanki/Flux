@@ -11,11 +11,10 @@ import usePIP from "../hooks/usePIP";
 import { supportsPIP } from "../utils/PIP";
 // eslint-disable-next-line react/prop-types
 export const HeroComponent = ({ collapsed }) => {
-  const gardenOfWords = "src/assets/trailers/hero-trailers/garden_of_words.mp4";
-  const suzume = "src/assets/trailers/hero-trailers/suzume.mp4";
-  const weatheringWithYou =
-    "src/assets/trailers/hero-trailers/weathering_with_you.mp4";
-  const yourName = "src/assets/trailers/hero-trailers/your_name.mp4";
+  const gardenOfWords = "/trailers/hero-trailers/garden_of_words.mp4";
+  const suzume = "/trailers/hero-trailers/suzume.mp4";
+  const weatheringWithYou = "/trailers/hero-trailers/weathering_with_you.mp4";
+  const yourName = "/trailers/hero-trailers/your_name.mp4";
   const heroData = [
     {
       thumbnail:
